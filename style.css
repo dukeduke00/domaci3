@@ -1,13 +1,24 @@
-
 .profilnaSlika {
-    border-radius: 20px;
-    width: 300px;
+	border-radius: 20px;
+	width: 300px;
 }
 
 .naslov {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .podnaslov {
-    color: gold;
+	color: gold;
+}
+
+.centarSajta {
+	text-align: center;
+}
+
+.header {
+	background-color: aquamarine;
+}
+
+.footer {
+	background-color: aquamarine;
 }
