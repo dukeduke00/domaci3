@@ -1,6 +1,16 @@
 .profilnaSlika {
 	border-radius: 20px;
 	width: 300px;
+	animation-name: rotacijaProfilne;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes rotacijaProfilne {
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 .naslov {
